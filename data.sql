@@ -23,18 +23,14 @@ insert into users
     id,
     firstname,
     lastname
-    )
-values
-    (
+    ) values (
         1,
-        "nassem",
-        "shabo"
-);
+       "nassem",
+       "shabo"
+    );
 
 /* select all data in the table */
-select *
-from users;
+select * from users;
 
 /* select some of them */
-select firstname
-from users;
+select firstname from users;
